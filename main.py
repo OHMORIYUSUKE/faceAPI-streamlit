@@ -23,8 +23,9 @@ st.image('https://github.com/OHMORIYUSUKE/sinnkeisuizyaku/blob/main/sample.jpeg?
 - 顔を緑に囲います。
 - 年齢・性別を判定します。
 ### 注意事項
-- JPGのみ対応です。(撮影方法によっては判定できない場合があります。)
+- JPEGのみ対応です。(撮影方法によっては判定できない場合があります。)
 - 人間以外(キャラクターなど)は判定できません。
+- 次の写真をアップロードする際は一度画像をBrowse filesボタンの下の×をクリックし画像を削除してから行ってください。
 """
 
 uploaded_file = st.file_uploader("画像をアップロードしてください。")
