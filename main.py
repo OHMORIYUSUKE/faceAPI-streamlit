@@ -62,7 +62,7 @@ if uploaded_file is not None:
         fontsize = rect['width']/4
         fontsize = int(fontsize)
 
-        font = ImageFont.truetype("C:/Windows/Fonts/Arial.ttf", fontsize)
+        font = ImageFont.truetype("Arial.ttf", fontsize)
         draw.text((rect['left'],rect['top']-fontsize),age+' , '+gender,fill="green",font=font)
         
     st.image(img , caption='判定結果', use_column_width=True)
