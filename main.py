@@ -4,11 +4,14 @@ import requests
 from PIL import Image
 from PIL import ImageDraw
 from PIL import ImageFont
+import json
 
+json_open = open('key.json', 'r')
+json_load = json.load(json_open)
 
-subscription_key="d9023ba96b01482383beac5e5af09c8f"
+subscription_key = json_load['section1']['key']
 assert subscription_key
-face_api_url = "https://20201209yusuke.cognitiveservices.azure.com/face/v1.0/detect"
+face_api_url = json_load['section1']['endpoint']
 
 
 st.title('顔認識アプリ')

@@ -1,0 +1,6 @@
+{
+    "section1":{
+        "key":"d9023ba96b01482383beac5e5af09c8f",
+        "endpoint":"https://20201209yusuke.cognitiveservices.azure.com/face/v1.0/detect"
+    }
+}
