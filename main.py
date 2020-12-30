@@ -16,7 +16,7 @@ face_api_url = json_load['section1']['endpoint']
 
 st.title('顔認識アプリ')
 
-st.image('https://github.com/OHMORIYUSUKE/sinnkeisuizyaku/blob/main/sample.jpeg?raw=true',width=700)
+st.image('https://github.com/OHMORIYUSUKE/sinnkeisuizyaku/blob/main/sample.jpeg?raw=true',use_column_width=True)
 
 """
 ## 機能
