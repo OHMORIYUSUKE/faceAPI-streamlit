@@ -16,7 +16,7 @@ face_api_url = json_load['section1']['endpoint']
 
 st.title('顔認識アプリ')
 
-st.image('',use_column_width=True)
+st.image('sample.jpeg',use_column_width=True)
 
 """
 ## 機能
